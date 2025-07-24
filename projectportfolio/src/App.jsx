@@ -8,7 +8,6 @@ import Timeline from './components/ui/Timeline';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-
 import './index.css';
 // myprotfolio
 // Personal Images & Logos
