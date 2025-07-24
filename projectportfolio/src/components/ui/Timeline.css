@@ -214,3 +214,41 @@
     opacity: 1;
   }
 }
+@media (max-width: 500px) {
+  #timeline-section {
+    padding: 2rem 0.25rem;
+  }
+
+  .timeline-header {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 0 0.5rem;
+  }
+
+  .timeline-tabs button {
+    font-size: 0.95rem;
+    padding: 0.4rem 1rem;
+  }
+
+  .timeline-container {
+    padding: 0.5rem 0;
+  }
+
+  .timeline-content {
+    padding: 0.75rem 0.75rem;
+    font-size: 0.95rem;
+    margin-left: 28px;
+    max-width: 95%;
+  }
+
+  .timeline-line {
+    left: 12px;
+    width: 2px;
+  }
+
+  .timeline-content::before {
+    left: -18px;
+    width: 10px;
+    height: 10px;
+  }
+}

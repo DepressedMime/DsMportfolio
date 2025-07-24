@@ -493,3 +493,50 @@ footer {
     gap: 0.75rem;
   }
 }
+@media (max-width: 768px) {
+  .nav-links {
+    gap: 0.75rem;
+  }
+  .hero-content {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem 0;
+  }
+  .hero-image img {
+    width: 180px;
+  }
+  .hero-text {
+    font-size: 1rem;
+    max-width: 100%;
+    padding: 0 0.5rem;
+  }
+  .info-block-grid {
+    grid-template-columns: 1fr;
+    margin: 1rem 0;
+    gap: 1rem;
+    max-width: 100%;
+  }
+  .button-group {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .skills-grid,
+  .services-grid,
+  .logo-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .container {
+    padding: 1rem 0.5rem;
+  }
+  #hero {
+    min-height: 60vh;
+    padding-top: 5rem;
+  }
+  #logos,
+  #certificates,
+  #contact,
+  footer {
+    padding: 2rem 0.5rem;
+  }
+}
