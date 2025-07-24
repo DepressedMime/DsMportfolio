@@ -17,7 +17,7 @@ const experiences = [
   },
   {
     title: 'Freelancer',
-    place: 'Photoshop / Premiere Pro',
+    place: 'Photoshop / Premiere Pro / Web Design',
     year: 'Present',
     description: 'Created graphic designs and video edits for online content creators, small businesses, and personal projects.'
   }
@@ -25,11 +25,17 @@ const experiences = [
 
 
 const education = [
+    {
+    title: 'Bachelor of Medical Technology',
+    place: 'Holy Name University',
+    year: 'TBA',
+    // description: 'Studying core IT subjects including programming, system analysis, multimedia editing, and network administration.'
+  },
   {
     title: 'Bachelor of Information Technology',
     place: 'Crystal E. College',
-    year: 'Ongoing',
-    description: 'Studying core IT subjects including programming, system analysis, multimedia editing, and network administration.'
+    year: '2025',
+    // description: 'Studying core IT subjects including programming, system analysis, multimedia editing, and network administration.'
   }
 ];
 
