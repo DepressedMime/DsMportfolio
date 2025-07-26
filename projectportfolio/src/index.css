@@ -540,3 +540,42 @@ footer {
     padding: 2rem 0.5rem;
   }
 }
+@media (max-width: 480px) {
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+
+  .hero-image img {
+    width: 140px;
+  }
+
+  .hero-text {
+    font-size: 0.95rem;
+  }
+
+  .button {
+    padding: 0.6rem 1.25rem;
+    font-size: 0.95rem;
+  }
+
+  .services-grid,
+  .skills-grid {
+    gap: 1rem;
+  }
+
+  .skill-bar-container,
+  .service-card {
+    padding: 1rem;
+  }
+
+  .logo-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .info-block-grid {
+    margin-left: 0;
+    padding: 0 0.5rem;
+  }
+}
+
